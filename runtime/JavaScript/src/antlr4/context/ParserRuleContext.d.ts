@@ -12,7 +12,7 @@ export declare class ParserRuleContext extends RuleContext {
     exception?: RecognitionException;
     parser?: Parser;
 
-    constructor(parent?: ParserRuleContext, invokingStateNumber?: number);
+    constructor(parent?: ParserRuleContext, invokingState?: number);
     copyFrom(ctx: ParserRuleContext): void;
     getChildCount() : number;
     getChild(i: number) : ParseTree;
