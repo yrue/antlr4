@@ -35,8 +35,8 @@ import Interval from "../misc/Interval.js";
  */
 export default class ParserRuleContext extends RuleContext {
 
-	constructor(parent, invokingStateNumber) {
-		super(parent, invokingStateNumber);
+	constructor(parent, invokingState) {
+		super(parent, invokingState);
 		/**
 		 * If we are debugging or building a parse tree for a visitor,
 		 * we need to track all of the tokens and rule invocations associated

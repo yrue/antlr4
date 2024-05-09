@@ -5,8 +5,8 @@
 import ParserRuleContext from "./ParserRuleContext.js";
 
 export default class InterpreterRuleContext extends ParserRuleContext {
-    constructor(parent, invokingStateNumber, ruleIndex) {
-        super(parent, invokingStateNumber);
+    constructor(parent, invokingState, ruleIndex) {
+        super(parent, invokingState);
         this.ruleIndex = ruleIndex;
     }
 }
